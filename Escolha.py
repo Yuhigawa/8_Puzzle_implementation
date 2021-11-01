@@ -1,9 +1,10 @@
 def escolha():
     selection = input("manual(True) ou Randomico(False): ")
 
-    if selection != "True" and selection != "False":
+    if str(selection) != "True":
         print("Seu merda, foi randomico então")
         return False
+
     return True
 
 def manual():  # preenchimento do tabuleiro manual
